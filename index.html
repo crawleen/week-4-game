@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css"> 
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"> 
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="./assets/javascript/game.js"></script>
+</head>
+<body>
+	<container>
+		<h1 id="title">Star Wars RPG!</h1>		
+		<div class="level" id="topDiv">
+			<div class="player" id="obiWan"><span class="playerName">Obi Wan</span><img src="./assets/images/obiWan.jpg" alt="obiWan"><span class="hp" id="obiWanHP"></span></div>
+			<div class="player" id="luke"><span class="playerName">Luke Skywalker</span><img src="./assets/images/luke.jpg" alt="Luke" ><span class="hp" id="lukeHP"></span></div>
+			<div class="player" id="vader"><span class="playerName">Darth Vader</span><img src="./assets/images/vader.jpg" alt="DarthVader" ><span class="hp" id="vaderHP"></span></div>
+			<div class="player" id="maul"><span class="playerName">Darth Maul</span><img src="./assets/images/maul.jpg" alt="DarthMaul" ><span class="hp" id="maulHP"></span></div>
+		</div>
+		<h2>Your Character</h2>
+		<div class="level" id="myPlayerDiv"></div>
+		<h2>Enemies Available to Attack</h2>
+		<div class="level" id="middleDiv"></div>
+		<h2>Fight Section</h2>
+		<button id="attack">Attack</button>
+		<h2>Defender</h2>
+		<div class="level" id="bottomDiv"> </div>
+		<div class="message1"></div>
+		<div class="message2"></div>
+		<button id="restart">Restart</button>
+	</container>
+</body>
+</html> 
